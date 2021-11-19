@@ -71,13 +71,14 @@ Regression Plots
 
 ![image](https://user-images.githubusercontent.com/12703065/142637181-30470f14-00a7-4317-a2d6-483c1934601e.png)
 
+## Final Model
+
+![image](https://user-images.githubusercontent.com/12703065/142636864-07204801-6ee4-4c37-8235-fa0e8c983d30.png)
+
 This is how we'd expect our final model to perform. The RMSE matches the same RMSE as our fourth model HOWEVER we made these changes to the final model to satisfy the assumptions of linear regression. The four independent variables are homoscedastic by the graphs above meaning the variance doesn't increase as the independent variable gets bigger or smaller. We also know that these aren't collinear given the correlation graph we used above.
 
 ![image](https://user-images.githubusercontent.com/12703065/142637249-b15ed5db-18ce-4150-933e-08c9034fdd4d.png)
 
-## Final Model
-
-![image](https://user-images.githubusercontent.com/12703065/142636864-07204801-6ee4-4c37-8235-fa0e8c983d30.png)
 
 ## Conclusion
 After analyzing this King County data, our final model would suggest the main factors in increasing property value to be sqft of the property as well as it's

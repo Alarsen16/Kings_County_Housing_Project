@@ -49,11 +49,11 @@ Now, the only colinear factors we found were sqft_living and sqft_above. This al
 
 ![image](https://user-images.githubusercontent.com/12703065/142636540-f16e9740-507a-4daa-b20c-74b4d4312eaa.png)
 
-Looking at the coefs from this model, we can see that the sqft of a home on average will increase the sale price by 114 per square foot, the sqft of the 15 surrounding homes will on average increase the sale price by 50, and improving the grade will increase the sale price by 90,000.
+Looking at the coefficients from this model, we can see that the sqft of a home on average will increase the sale price by 114 per square foot, the sqft of the 15 surrounding homes will on average increase the sale price by 50, and improving the grade will increase the sale price by 90,000.
 
 But we know that because grade is really a categorical number rather than a numerical number, all we can really infer from this is that the grade is strongly correlated, but we can't put a specific number on it.
 
-Bathrooms, interestingly enough have a negative correlation. The explanation for this may be, that because the model takes in to acount the square footage, it wants to figure out how bathrooms impact the price given that it's a big home. In that case it's is possible that homes that are very big and therefore expensive don't have higher prices when there are more bathrooms.
+Bathrooms, interestingly enough have a negative correlation. The explanation for this may be, that because the model takes in to acount the square footage, it wants to figure out how bathrooms impact the price given that it's a big home. In that case it is possible that homes that are very big and therefore expensive don't have higher prices when there are more bathrooms.
 
 ## Final Model
 

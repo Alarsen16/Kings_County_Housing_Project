@@ -42,6 +42,7 @@ Looks like there's a good amount of collinearity in our data. In order to avoid 
 
 Alternatively though the above collinearity check included outliers in the data set. After putting the columns we were planning to remove after the first
 collinearity test back into the data and removing outliers we got different results. 
+
 ![collinearity chart](https://user-images.githubusercontent.com/73855593/142642116-77e0812d-5148-4085-9f67-e7d6ca4ea16d.png)
 
 Now, the only colinear factors we found were sqft_living and sqft_above. This allows us to remove sqft_above and keep more columns in our data set than we would have been allowed to do before removing outliers. Now we can model this again and see what we get.

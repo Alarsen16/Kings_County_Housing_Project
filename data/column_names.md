@@ -24,3 +24,19 @@
 * `long` - Longitude coordinate
 * `sqft_living15` - The square footage of interior housing living space for the nearest 15 neighbors
 * `sqft_lot15` - The square footage of the land lots of the nearest 15 neighbors
+
+
+
+
+
+
+
+Adam Speech:
+
+As you can see by the graph on screen, our RMSE values across the four different models have decreased. For starters, it's certainly important to understand RMSE, or root mean squared error, as the average amount we were WRONG by on each prediction versus the actual price.
+
+Before we talk thru our models, we removed outliers to rid our models of skewness by the extreme values in sqft_living and bedrooms. While these aren't mutually exclusive, we believed that talking the inner 95% of these columns would give us a good data set to work with. 
+
+To talk thru our models quickly: 
+Our baseline model predicted the house value off of the average. Our simple model was improved by using the most correlated variable to price which was the size of the living space. We then ran a model where we included all variables to determine which values impacted price the most and then ran a final model with those statistically significant values trimmed down by which variables met all assumptions for linear regression. Next, Mendy will speak about those varibles!
+

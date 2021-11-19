@@ -75,3 +75,5 @@ This is how we'd expect our final model to perform. The RMSE matches the same RM
 ![image](https://user-images.githubusercontent.com/12703065/142637249-b15ed5db-18ce-4150-933e-08c9034fdd4d.png)
 
 ## Conclusion
+After analyzing this King County data, our final model would suggest the main factors in increasing property value to be sqft of the property as well as it's
+grade. Grade is referring to the classification based on a structures construction quality. This mainly has to do with the types of materials used and the quality of the work done. Buildings that get better grades often cost more to build per unit of measure howevever we deem that investment profitale as properties that do grade higher, command higher value. Our model does however have it's faults. Our final models R^2 was 48% with an RMSE of $194,053. Linear regression was probably not the best tool to use to get the most out of this data set so in the future we would like to use different more powerful machine learning tools in order to make this a more accurate predictive model.   

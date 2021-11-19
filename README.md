@@ -55,10 +55,6 @@ But we know that because grade is really a categorical number rather than a nume
 
 Bathrooms, interestingly enough have a negative correlation. The explanation for this may be, that because the model takes in to acount the square footage, it wants to figure out how bathrooms impact the price given that it's a big home. In that case it is possible that homes that are very big and therefore expensive don't have higher prices when there are more bathrooms.
 
-## Final Model
-
-![image](https://user-images.githubusercontent.com/12703065/142636864-07204801-6ee4-4c37-8235-fa0e8c983d30.png)
-
 
 
 ## Checking For Assumptions
@@ -78,6 +74,10 @@ Regression Plots
 This is how we'd expect our final model to perform. The RMSE matches the same RMSE as our fourth model HOWEVER we made these changes to the final model to satisfy the assumptions of linear regression. The four independent variables are homoscedastic by the graphs above meaning the variance doesn't increase as the independent variable gets bigger or smaller. We also know that these aren't collinear given the correlation graph we used above.
 
 ![image](https://user-images.githubusercontent.com/12703065/142637249-b15ed5db-18ce-4150-933e-08c9034fdd4d.png)
+
+## Final Model
+
+![image](https://user-images.githubusercontent.com/12703065/142636864-07204801-6ee4-4c37-8235-fa0e8c983d30.png)
 
 ## Conclusion
 After analyzing this King County data, our final model would suggest the main factors in increasing property value to be sqft of the property as well as it's

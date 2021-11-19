@@ -1,12 +1,12 @@
 # Kings_County_Housing_Project
 
 ## Overview
-We have been approached by a real estate company about how to accurately appraise homes in Kings County so that they can give their customers accurate reccomendations when it comes to buying and selling homes. We've been given a data set that contains various information about the different homes within Kings County.
+We have been approached by a real estate company about how to accurately appraise homes in King County so that they can give their customers accurate reccomendations when it comes to buying and selling homes. We've been given a data set that contains various information about the different homes within King County.
 ## Business Understanding
 We'll be looking to answer the following questions to help us better understand the layout of the housing industry.
 
 * How does number of bathrooms/bedrooms effect the price?
-* How does square footage matter?
+* How much does square footage matter?
 * Are there any other features that effect the price significantly?
 ## Data Understanding and Analysis
 

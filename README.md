@@ -49,7 +49,9 @@ But we know that because grade is really a categorical number rather than a nume
 Bathrooms, interestingly enough have a negative correlation. The explanation for this may be, that because the model takes in to acount the square footage, it wants to figure out how bathrooms impact the price given that it's a big home. In that case it's is possible that homes that are very big and therefore expensive don't have higher prices when there are more bathrooms.
 
 Alternatively though the above model and collinearity check included outliers in the data set. After putting the columns we were planning to remove after the first
-collinearity test back into the data and removing outliers we got different results. Now, the only colinear factors we found were sqft_living and sqft_above. This allows us to remove sqft_above and keep more columns in our data set than we would have been allowed to do before removing outliers.
+collinearity test back into the data and removing outliers we got different results. ![collinearity chart](https://user-images.githubusercontent.com/73855593/142642116-77e0812d-5148-4085-9f67-e7d6ca4ea16d.png)
+
+Now, the only colinear factors we found were sqft_living and sqft_above. This allows us to remove sqft_above and keep more columns in our data set than we would have been allowed to do before removing outliers.
 ## Final Model
 
 ![image](https://user-images.githubusercontent.com/12703065/142636864-07204801-6ee4-4c37-8235-fa0e8c983d30.png)

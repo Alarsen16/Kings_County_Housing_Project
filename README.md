@@ -38,7 +38,7 @@ then we'll check for collinearity between independent variabels
 
 ![image](https://user-images.githubusercontent.com/12703065/142474514-18d77e16-667e-424d-bac5-aeebdf13f0b0.png)
 
-Looks like there's a good amount of colinnearity (spelling?) in our data. In order to avoid this we have to drop one variable from each pair. If we dropped sqft_living and sqft_above, we'd be able to keep grade, bathrooms, sqft_living15. We also still have our bedrooms variable, as well as our sqft_basement.
+Looks like there's a good amount of collinearity in our data. In order to avoid this we have to drop one variable from each pair. If we dropped sqft_living and sqft_above, we'd be able to keep grade, bathrooms, sqft_living15. We also still have our bedrooms variable, as well as our sqft_basement.
 
 ![image](https://user-images.githubusercontent.com/12703065/142636540-f16e9740-507a-4daa-b20c-74b4d4312eaa.png)
 
@@ -48,6 +48,8 @@ But we know that because grade is really a categorical number rather than a nume
 
 Bathrooms, interestingly enough have a negative correlation. The explanation for this may be, that because the model takes in to acount the square footage, it wants to figure out how bathrooms impact the price given that it's a big home. In that case it's is possible that homes that are very big and therefore expensive don't have higher prices when there are more bathrooms.
 
+Alternatively though the above model and collinearity check included outliers in the data set. After putting the columns we were planning to remove after the first
+collinearity test back into the data and removing outliers we got different results. Now, the only colinear factors we found were sqft_living and sqft_above. This allows us to remove sqft_above and keep more columns in our data set than we would have been allowed to do before removing outliers.
 ## Final Model
 
 ![image](https://user-images.githubusercontent.com/12703065/142636864-07204801-6ee4-4c37-8235-fa0e8c983d30.png)
